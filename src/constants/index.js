@@ -279,7 +279,7 @@ export const projects = [
     id: "project-1",
     title: "Medi-Sync",
     github: "https://github.com/Rah-ul-643/Decentralised-Unified-Medical-Records-System-DUMRS-",
-    link: "https://decentralised-unified-medical-records-system-dumrs.vercel.app/",
+    link: "https://medi-sync-one.vercel.app/",
     image: medisync,
     content:
       "A secure medical record system using React, Node.js, and blockchain, featuring role-based access, dynamic forms, AWS S3 file storage, and on-chain hash verification for data integrity.",
