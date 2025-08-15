@@ -1,5 +1,5 @@
 import rahul from "./rahul.png";
-import profilePic from "./profile-pic.jpeg";
+import profilePic from "./profile-pic.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import arrowUp from "./arrow-up.svg";
