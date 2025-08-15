@@ -52,7 +52,7 @@ import { DiCss3, DiJava, DiMongodb, DiPostgresql, DiRedis } from "react-icons/di
 import { BiLogoVisualStudio, BiSolidHardHat } from "react-icons/bi";
 
 export const resumeLink =
-  "https://drive.google.com/file/d/1pkmo23BGph99uK1d_RHJy15JawHMqGxk/view?usp=sharing";
+  "https://drive.google.com/file/d/1s5zoOrSUqwU4GdzpbgHgJqSNvoUEpiA2/view?usp=sharing";
 
 export const callToAction = "https://www.linkedin.com/in/rahul643";
 
