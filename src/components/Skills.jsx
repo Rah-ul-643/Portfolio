@@ -26,7 +26,7 @@ const SkillCard = (props) => {
           {props.title}
         </h4>
       </div>
-      <div className="grid grid-cols-6 gap-8 gap-x-0  ml-8">
+      <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-8 gap-x-0  ml-8">
         {props.items.map((item, index) => (
           <SkillIcon key={item.id} index={index} {...item} />
         ))}
