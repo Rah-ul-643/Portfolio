@@ -325,7 +325,7 @@ export const projects = [
     id: "project-2",
     title: "Cipher Flow",
     github: "https://github.com/Rah-ul-643/Cipher-Flow-Remote-Code-Executor",
-    link: "https://github.com/Rah-ul-643/Cipher-Flow-Remote-Code-Executor",
+    link: "http://cipherflow.ddns.net/",
     image: cypherflow,
     content:
       "A high-performance online IDE and remote code execution platform for Java, Python, and C/C++, featuring real-time collaborative coding with Socket.io and an integrated AI assistant for seamless, intelligent development.",
