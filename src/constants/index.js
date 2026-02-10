@@ -10,7 +10,6 @@ import {
 
 import {
   AiFillGithub,
-  AiFillInstagram,
   AiFillLinkedin,
   AiFillMail,
   AiFillHtml5,
@@ -43,6 +42,7 @@ import {
   SiLeetcode,
   SiCodechef,
   SiCodeforces,
+  SiRedis,
 } from "react-icons/si";
 
 import { FaGolang } from "react-icons/fa6";
@@ -52,7 +52,7 @@ import { DiCss3, DiJava, DiMongodb, DiPostgresql, DiRedis } from "react-icons/di
 import { BiLogoVisualStudio, BiSolidHardHat } from "react-icons/bi";
 
 export const resumeLink =
-  "https://drive.google.com/file/d/1iUJ9Tfu90snoAQ0EZbkAtLCDT47WiSrY/view?usp=sharing";
+  "https://drive.google.com/drive/folders/1RkEmiBPuCNwlHORFOUHEvuDFg3JhaSRJ?usp=sharing";
 
 export const callToAction = "https://www.linkedin.com/in/rahul643";
 
@@ -89,7 +89,7 @@ export const educationList = [
     degree: "Integrated B.Tech + M.Tech",
     duration: "November 2022 - May 2027",
     content1: "Major: Information Technology",
-    content2: "CGPA: 8.1/10",
+    content2: "CGPA: 8.28/10",
   },
 ];
 
@@ -259,11 +259,11 @@ export const experiences = [
         duration: "October 2024 - January 2025",
         content: [
           {
-            text: "Developed full-stack web applications using the MERN stack, focusing on efficient coding practices and user experience.",
+            text: "Developed a full-stack AI tool listing platform using Node.js, Express, MongoDB, and Handlebars, enabling dynamic server-rendered pages and efficient categorization workflows.",
             link: "",
           },
           {
-            text: "Participated in the implementation of user authentication and authorization features, improving security measures for web applications.",
+            text: "Implemented secure authentication and role-based authorization with JWT, bcrypt, and middleware guards to enforce controlled access and strengthen application security.",
             link: "",
           },
         ],
@@ -328,8 +328,13 @@ export const projects = [
     link: "http://cipherflow.ddns.net/",
     image: cypherflow,
     content:
-      "A high-performance online IDE and remote code execution platform for Java, Python, and C/C++, featuring real-time collaborative coding with Socket.io and an integrated AI assistant for seamless, intelligent development.",
+      "A scalable microservice-based remote code execution platform featuring Go-based worker services, Redis-backed task queues, event-driven architecture, secure containerized sandboxing, and real-time collaborative coding for reliable, high-performance multi-language execution.",
     stack: [
+      {
+        id: "icon-1",
+        icon: SiGo,
+        name: "Golang",
+      },
       {
         id: "icon-2",
         icon: SiJavascript,
@@ -362,8 +367,8 @@ export const projects = [
       },
       {
         id: "icon-8",
-        icon: SiNginx,
-        name: "Nginx",
+        icon: SiRedis,
+        name: "Redis",
       },
       {
         id: "icon-9",
@@ -371,7 +376,7 @@ export const projects = [
         name: "MongoDB",
       },
       {
-        id: "icon-1",
+        id: "icon-10",
         icon: SiJsonwebtokens,
         name: "JWT",
       },
