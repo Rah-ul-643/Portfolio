@@ -277,55 +277,9 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
-    title: "Medi-Sync",
-    github: "https://github.com/Rah-ul-643/Decentralised-Unified-Medical-Records-System-DUMRS-",
-    link: "https://medi-sync-one.vercel.app/",
-    image: medisync,
-    content:
-      "A secure medical record system using React, Node.js, and blockchain, featuring role-based access, dynamic forms, AWS S3 file storage, and on-chain hash verification for data integrity.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
-      {
-        id: "icon-2",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
-      {
-        id: "icon-3",
-        icon: SiReact,
-        name: "React.js",
-      },
-      {
-        id: "icon-4",
-        icon: SiExpress,
-        name: "Express.js",
-      },
-      {
-        id: "icon-5",
-        icon: SiAmazonwebservices,
-        name: "AWS S3",
-      },
-      {
-        id: "icon-6",
-        icon: BiSolidHardHat,
-        name: "Hardhat",
-      },
-      {
-        id: "icon-7",
-        icon: DiMongodb,
-        name: "MongoDB",
-      },
-    ],
-  },
-  {
-    id: "project-2",
     title: "Cipher Flow",
-    github: "https://github.com/Rah-ul-643/Cipher-Flow-Remote-Code-Executor",
-    link: "http://cipherflow.ddns.net/",
+    github: "https://github.com/Rah-ul-643/Remote-code-executor-microservices",
+    link: "",
     image: cypherflow,
     content:
       "A scalable microservice-based remote code execution platform featuring Go-based worker services, Redis-backed task queues, event-driven architecture, secure containerized sandboxing, and real-time collaborative coding for reliable, high-performance multi-language execution.",
@@ -383,9 +337,55 @@ export const projects = [
     ],
   },
   {
+    id: "project-2",
+    title: "Medi-Sync",
+    github: "https://github.com/Rah-ul-643/Decentralised-Unified-Medical-Records-System-DUMRS-",
+    link: "https://medi-sync-one.vercel.app/",
+    image: medisync,
+    content:
+      "A secure medical record system using React, Node.js, and blockchain, featuring role-based access, dynamic forms, AWS S3 file storage, and on-chain hash verification for data integrity.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiSolidity,
+        name: "Solidity",
+      },
+      {
+        id: "icon-2",
+        icon: SiJavascript,
+        name: "JavaScript",
+      },
+      {
+        id: "icon-3",
+        icon: SiReact,
+        name: "React.js",
+      },
+      {
+        id: "icon-4",
+        icon: SiExpress,
+        name: "Express.js",
+      },
+      {
+        id: "icon-5",
+        icon: SiAmazonwebservices,
+        name: "AWS S3",
+      },
+      {
+        id: "icon-6",
+        icon: BiSolidHardHat,
+        name: "Hardhat",
+      },
+      {
+        id: "icon-7",
+        icon: DiMongodb,
+        name: "MongoDB",
+      },
+    ],
+  },
+  {
     id: "project-3",
     title: "Peer-Vault",
-    github: "",
+    github: "https://github.com/Rah-ul-643/peer-vault",
     link: "",
     image: peervault,
     content:
