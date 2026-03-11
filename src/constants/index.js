@@ -525,7 +525,7 @@ export const socialMedia = [
     id: "social-media-7", 
     icon: SiCodechef,
     title: "CodeChef",
-    link: "https://www.codechef.com/users/rahul_643",
+    link: "https://www.codechef.com/users/rauuuul_643",
   },{
     id: "social-media-8",
     icon: SiCodeforces,
