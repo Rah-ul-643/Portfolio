@@ -43,6 +43,7 @@ import {
   SiCodechef,
   SiCodeforces,
   SiRedis,
+  SiApachekafka,
 } from "react-icons/si";
 
 import { FaGolang } from "react-icons/fa6";
@@ -338,6 +339,57 @@ export const projects = [
   },
   {
     id: "project-2",
+    title: "Social Sphere",
+    github: "https://github.com/Rah-ul-643/Social-Sphere-scalable",
+    link: "https://social-sphere-green.vercel.app/",
+    image: socialsphere,
+    content:
+      "A Distributed real-time group chat platform built with a decoupled microservices architecture — stateless WebSocket gateways, Kafka-backed async message streaming, Redis Pub/Sub for cross-instance fan-out, and a batched persistence pipeline for high-throughput, fault-tolerant delivery.",
+    stack: [
+      {
+        id: "icon-2",
+        icon: SiJavascript,
+        name: "JavaScript",
+      },
+      {
+        id: "icon-3",
+        icon: SiReact,
+        name: "React.js",
+      },
+      {
+        id: "icon-4",
+        icon: SiExpress,
+        name: "Express.js",
+      },
+      {
+        id: "icon-9",
+        icon: SiMongodb,
+        name: "MongoDB",
+      },
+      {
+        id: "icon-1",
+        icon: SiJsonwebtokens,
+        name: "JWT",
+      },
+      {
+        id: "icon-6",
+        icon: SiSocketdotio,
+        name: "Socket.io",
+      },
+      {
+        id: "icon-8",
+        icon: SiRedis,
+        name: "Redis",
+      },
+      {
+        id: "icon-5",
+        icon: SiApachekafka,
+        name: "Kafka",
+      },
+    ],
+  },
+  {
+    id: "project-3",
     title: "Medi-Sync",
     github: "https://github.com/Rah-ul-643/Decentralised-Unified-Medical-Records-System-DUMRS-",
     link: "https://medi-sync-one.vercel.app/",
@@ -383,7 +435,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-3",
+    id: "project-4",
     title: "Peer-Vault",
     github: "https://github.com/Rah-ul-643/peer-vault",
     link: "",
@@ -398,53 +450,7 @@ export const projects = [
       },
     ],
   },
-  {
-    id: "project-4",
-    title: "Social Sphere",
-    github: "https://github.com/Rah-ul-643/Social-Sphere",
-    link: "https://social-sphere-green.vercel.app/",
-    image: socialsphere,
-    content:
-      "A MERN-based real-time chat app with Socket.io, featuring group creation, role-based controls, and secure JWT-powered admin access for scalability and security.",
-    stack: [
-      {
-        id: "icon-2",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
-      {
-        id: "icon-3",
-        icon: SiReact,
-        name: "React.js",
-      },
-      {
-        id: "icon-4",
-        icon: SiExpress,
-        name: "Express.js",
-      },
-      {
-        id: "icon-9",
-        icon: SiMongodb,
-        name: "MongoDB",
-      },
-      {
-        id: "icon-1",
-        icon: SiJsonwebtokens,
-        name: "JWT",
-      },
-      {
-        id: "icon-6",
-        icon: SiSocketdotio,
-        name: "Socket.io",
-      },
-      {
-        id: "icon-8",
-        icon: SiVercel,
-        name: "Vercel",
-      },
-
-    ],
-  },
+  
   {
     id: "project-5",
     title: "Nexus",
