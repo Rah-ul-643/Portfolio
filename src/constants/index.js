@@ -279,7 +279,7 @@ export const projects = [
   {
     id: "project-1",
     title: "Cipher Flow",
-    github: "https://github.com/Rah-ul-643/Remote-code-executor-microservices",
+    github: "https://github.com/rawlx/Remote-code-executor-microservices",
     link: "",
     image: cypherflow,
     content:
@@ -340,7 +340,7 @@ export const projects = [
   {
     id: "project-2",
     title: "Social Sphere",
-    github: "https://github.com/Rah-ul-643/Social-Sphere-scalable",
+    github: "https://github.com/rawlx/Social-Sphere-scalable",
     link: "https://social-sphere-green.vercel.app/",
     image: socialsphere,
     content:
@@ -391,7 +391,7 @@ export const projects = [
   {
     id: "project-3",
     title: "Medi-Sync",
-    github: "https://github.com/Rah-ul-643/Decentralised-Unified-Medical-Records-System-DUMRS-",
+    github: "https://github.com/rawlx/Decentralised-Unified-Medical-Records-System-DUMRS-",
     link: "https://medi-sync-one.vercel.app/",
     image: medisync,
     content:
@@ -437,7 +437,7 @@ export const projects = [
   {
     id: "project-4",
     title: "Peer-Vault",
-    github: "https://github.com/Rah-ul-643/peer-vault",
+    github: "https://github.com/rawlx/peer-vault",
     link: "",
     image: peervault,
     content:
@@ -454,7 +454,7 @@ export const projects = [
   {
     id: "project-5",
     title: "Nexus",
-    github: "https://github.com/Rah-ul-643/Nexus",
+    github: "https://github.com/rawlx/Nexus",
     link: "https://nexus-chi-eight.vercel.app/",
     image: nexus,
     content:
@@ -513,7 +513,7 @@ export const socialMedia = [
     id: "social-media-2",
     icon: AiFillGithub,
     title: "GitHub",
-    link: "https://github.com/Rah-ul-643",
+    link: "https://github.com/rawlx",
   },
   {
     id: "social-media-3",
@@ -544,7 +544,7 @@ export const socialMedia = [
 export const aboutMe = {
   name: "Rahul",
   fullName: "Rahul Sreekumar",
-  githubUsername: "Rah-ul-643",
+  githubUsername: "rawlx",
   tagLine:
     "Full stack Developer | Blockchain Enthusiast | IIIT Gwalior",
   intro:
